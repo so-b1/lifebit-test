@@ -1,8 +1,11 @@
-# DESIGN
-1.  AWS LAMBDA :  Application code runs here.
+# DESIGN (Serverless)
+1.  AWS LAMBDA :  Application code runs here in lambda function.
 1.  AWS S3 : Application packaged artifacts are stored here .
 1.  AWS API GATEWAY : Single point of entry to API on lambda .
 1.  AWS CLOUDWATCH : Logs for both lambda and apigateway
+
+<img width="775" alt="image" src="https://user-images.githubusercontent.com/19683199/160842206-f0e5ae76-94fb-4303-a807-0ce30f3b2cd3.png">
+
 
 # DESIGN CONSIDERATION
 1.  Zero maintenance overhead.
@@ -81,3 +84,14 @@ Added aws lambda specific file: ```lifebit-test/hello-world/lambda.js```
 ```
 Hello, world!Hello, world!Hello, world!Hello, world!Hello, world!Hello, world!Hello, world!Hello, world!Hello, world!Hello, world!Hello, world!Hello, world!Hello, world!Hello, world!Hello, world!Hello, world!Hello, world!Hello, world!Hello, world!Hello, world! 
 ```
+
+
+# AWS RESOURCES:
+<img width="1743" alt="image" src="https://user-images.githubusercontent.com/19683199/160842577-38328334-1b4f-4b6f-9c28-3466c6b5ea96.png">
+<img width="1743" alt="image" src="https://user-images.githubusercontent.com/19683199/160842701-854ed2fd-d48b-4820-b4b2-10ad6f9297a8.png">
+<img width="1743" alt="image" src="https://user-images.githubusercontent.com/19683199/160842818-1fa742d5-e102-4375-84db-57262e62cb97.png">
+<img width="1743" alt="image" src="https://user-images.githubusercontent.com/19683199/160843049-60e27076-5dc0-4c78-8256-1026b7911168.png">
+
+<img width="1743" alt="image" src="https://user-images.githubusercontent.com/19683199/160842818-1fa742d5-e102-4375-84db-57262e62cb97.png">
+<img width="1743" alt="image" src="https://user-images.githubusercontent.com/19683199/160843120-82012478-a06e-42ae-bdb4-4a3eb736cec7.png">
+
