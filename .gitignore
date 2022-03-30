@@ -1,3 +1,11 @@
+
+#
+*.zip
+.DS_Store
+*/.terraform
+*.backup
+*.hcl
+
 # Logs
 logs
 *.log
